@@ -1,30 +1,20 @@
 <?xml version="3.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.lipsplay"
        name="[COLOR white][B]LIPS PLAY[/B][/COLOR]"
-       version="3.0.1+matrix"
-       provider-name="LIPS PLAY">
+       version="3.0.0+matrix"
+       provider-name="Jarvis">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/> 
+    <import addon="script.module.simplejson"/>
 	<import addon="script.module.kodi-six" />
 </requires>  
 <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>video</provides>
 </extension>   
 <extension point="xbmc.addon.metadata">
-	 <summary lang="en">LIPS PLAY ONDE MORA O ENTRETENIMENTO!</summary>
-    <description lang="en">FILMES, SERIES, ANIMES, LANCAMENTOS 
-	COM OS DEMAIS GENEROS, ATUALIZAÇÕES
-	PODERÂO SER FEITAS SEMANALMENTE
-	OU MENSALMENTE SEM COBRANCA 
-	TOTALMETNE GRATUITO, O LIPS PLAY E UM ADD-ON 
-	QUE NAO POSSUI ENVOLVIMENTO COM O KODI 
-	OU KODI TEAM.PARA FAZER UMA DOAÇÃO 
-	BASTA CHAMA NO WHATSAPP.
-	+55(71)98740-0980
-	DOAÇÃO MINIMA DE R$2,00
-	PARA NOS AJUDA A MANTER O ADD-ON ONLINE</description>
+	 <summary lang="en">Addon exemplo para ajudar iniciantes criarem seu próprio addon para kodi. </summary>
+    <description lang="en">Addon exemplo - Crie seu próprio addon para kodi. </description>
     <disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
 	<assets>
