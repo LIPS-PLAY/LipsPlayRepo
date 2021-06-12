@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lips.play" name="Lips Play Repo" version="1.0" provider-name="Felipe_Viana">
+    <extension point="xbmc.addon.repository" name="Nome Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/LIPS-PLAY/LipsPlayRepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/LIPS-PLAY/LipsPlayRepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/LIPS-PLAY/LipsPlayRepo/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>LIPS PLAY REPO</summary>
+        <description>REPOSITORIO LIPS PLAY OFICIAL</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
